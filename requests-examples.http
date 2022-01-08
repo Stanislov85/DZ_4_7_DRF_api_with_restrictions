@@ -2,6 +2,11 @@
 
 #@baseUrl = https://localhost:8000/api
 
+#admin_2 = 260af8a7382079e7e2e45e48e29f85ce9d5b437c
+#admin = 7a3adeae39d89cca88d30d3ceb4c7b89898eb516
+#user = 26a344b62c4799151164df094b8b6fcc2e074ea0
+
+
 # получение объявлений
 GET http://localhost:8000/api/advertisements/
 Content-Type: application/json
@@ -31,7 +36,7 @@ Authorization: Token 7a3adeae39d89cca88d30d3ceb4c7b89898eb516
 ###
 
 # попытка поменять объявление
-PATCH http://localhost:8000/api/advertisements/6/
+PATCH http://localhost:8000/api/advertisements/11/
 Content-Type: application/json
 Authorization: Token 7a3adeae39d89cca88d30d3ceb4c7b89898eb516
 
